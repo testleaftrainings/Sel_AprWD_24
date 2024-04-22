@@ -1,0 +1,89 @@
+Todays Agenda!!
+================
+   09:30-10:00-EdTech Introduction
+   10:00-10:30-Java and Automation Introduction
+   10:30-10:40-Break
+   10:40-11:10-Project,package,Class and sample Programs
+   11:10-11:40-Breakout+Break
+   11:40-12:20-DataTypes
+   12:20-12:35-Breakout
+   12:35-12:45-Recap
+
+
+What is Java?
+ *Java is a programming language used to create software applications, including web and mobile apps.
+ *Java is an object-oriented programming language, which means it organizes code into reusable components
+  called objects. 
+ Objects can contain both data(variable) and methods (functions) that operate on that data.
+ *Java programs can run on any device with a Java Virtual Machine (JVM), making them portable.
+ *Code written in Java can be run on different devices without modification.
+ * Java has a large and active community of developers worldwide.
+
+
+Java Architecture:
+
+ JVM: Java Virtual Machine
+ JRE: Java Runtime Environment
+ JDK:Java Development Kit
+
+JVM is the virtual machine that executes Java bytecode.
+JRE is the runtime environment that includes the JVM and libraries needed to run Java applications.
+JDK is the development kit that includes the JRE along with development tools for writing, compiling, and running Java programs.
+
+
+
+IDE: Integrated Development Environment
+Definition: An IDE, or Integrated Development Environment, is like a digital workspace where programmers write, edit, and
+ manage their code. It provides tools such as a code editor, debugger, and compiler, all in one place,
+  making it easier for developers to create and maintain their software.
+****************************************************************************************************************************************
+
+
+To Create New Project :
+===================
+Step 1 -  MouseHover on File & Click File
+Step 2 - MouseHover on New --> Click Project.
+Step 3 -  under Maven folder --> Click Maven Project & click Next Button.
+Step 4 - click 'create a simple project' checkbox✅ & click Next Button.
+Step 5 - Enter 'Group id' & 'Artifact id' and click Finish Button
+
+To Create Package :
+================
+Step 1 - Right Click on src/main/Java --> New --> click package
+Step 2 - Enter week1.day1 (Name start's with lowerCase) in Name field  and click Finish Button.
+
+ 
+ To Create Class :
+================
+Step 1 - Right Click on week1.day1 package --> New --> click Class
+Step 2 - Enter HelloTestLeaf  (Name start's with UpperCase) in Name field.  
+Step 3 - click 'public static void main(String[] args)' checkbox ✅
+Step 4 - Then, click Finish Button.
+
+********************************************************************************************************************************************
+  @Package:
+  Packages help in organizing large codebases, improving code readability, and 
+   better maintenance and collaboration.
+
+   *NamingConvertion: package name should start with "lowercase"
+   Ex: week1
+
+ @Class:
+    A class is a blueprint or template for creating objects in object-oriented programming (OOP). 
+    It defines the data (variable) and behaviors (methods) that objects of the class will have.
+
+   *NamingConvertion: package name should start with "uppercase" and "PaselCase"
+   Ex: Browser,BrowserType
+
+  @Variables:
+   A variable is a named storage location in a computer's memory that holds a value. 
+   In programming, variables are used to store and manipulate data.
+
+   *NamingConvertion: package name should start with "lowercase" and CamalCase
+   Ex:classRoom
+
+
+  @DataTypes:
+   In programming, a data type is a classification that specifies which type of value a variable can hold.
+   It defines the operations that can be done on the data, the meaning of the data,
+   and the way values of that type can be stored
