@@ -1,0 +1,214 @@
+Todays Agenda!!
+================
+   09:15-09:30-Recap
+   09:30-10:20-Control statements(If condition)
+   10:20-10:45-Breakout+Break
+   10:45-11:30-ForLoop
+   11:30-11:55-Breakout+Break
+   11:55-12:30-Method & Object
+
+   Operators:
+operators are special symbols that perform specific operations
+ 
+1.Arithmetic operators:
+These operators are used to perform mathematical operations
+such as addition, subtraction, multiplication,and division.
++ (addition) 2+3=5
+- (subtraction)5-4=1
+* (multiplication)5*2=10
+/ (division)-Que 10/5=2
+% (modulus or remainder)10%5=0
+
+2.Assignment operators:
+These operators are used to assign values to variables. 
+= (assignment) a=5 ,comName="TestLeaf"
++= (add and assign) int a=5;
+ a+=6 =>a=a+6=11=>a=5+6
+ a+=5=> a=a+5=> a=5+5=> 10
+
+-= (subtract and assign) a-=5=> a=a-5 +> a=5-5=0
+*= (multiply and assign)
+/= (divide and assign)
+%= (modulus and assign)
+
+3.Comparison operators:
+These operators are used to compare two value
+and return a boolean value (true or false). 
+== (equal to) 5==5=>true
+4==3->false
+!= (not equal to) 5!=8 =>true
+6!=6-> false
+> (greater than) 6>5 =>true
+< (less than) 6<5 =>false
+>= (greater than or equal to) 6>=7
+<= (less than or equal to)
+
+4.Logical operators:
+These operators are used to combine two or more boolean expressions
+and return a boolean value.   &&-->AND * 
+&& (logical and)  both condition should passed
+AND----->&&
+1*0=0     T F F
+0*1=0     F T F
+0*0=0     F F F
+1*1=1     T T T
+
+a=5,b=5
+true && false
+(a==b)&&(a>b) =both data=false
+True && False= False
+(5==5)&&(5<5)---false
+
+|| (logical or) any one condition can pass
+
+true || false
+(a==b)||(a>b) => true
+
+
+addition
+OR------>||
+1+0=1    T F T
+0+1=1    F T T
+1+1=1    T T T
+0+0=0    F F F
+
+
+(5==5)||(5<5)---True
+
+! (logical not or negation)
+1---0   T F
+
+0---1   F  T
+boolean flag=false;
+!flag
+
+5. unary operator
+Increment operator (i++) i=0 ,i=0+1 => i=1
+Decrement operator (i--) i=5, i=5-1 => i=4
+
+i++ -postincrement 
+int i=0;
+syso(i++);
+syso(i)=>1
+
+i-- - postdecrement 
+int i=8;
+syso(i--);
+syso(i)=>7
+
+
+
+
+
+
+
+
+
+
+
+
+Conditional Statements:
+Conditional statements are used to control the flow of the program based on certain conditions. These statements allow the program to make decisions and execute different blocks of code depending on whether a specified condition evaluates to true or false. The primary conditional statements in Java include:
+1. if Statement:
+Definition: The if statement is used to execute a block of code only if a specified condition is true.
+
+Syntax:
+
+if (condition) {
+    // Code to be executed if the condition is true
+}
+2. if-else Statement:
+Definition: The if-else statement is used to execute one block of code if the condition is true and 
+another block of code if the condition is false.
+
+Syntax:
+
+if (condition) {
+    // Code to be executed if the condition is true
+} else {
+    // Code to be executed if the condition is false
+}
+
+int age =16;
+if(age>=18){
+  syso(they can do voting)
+}else{
+  syso(they cannot do vote)
+}
+
+
+3. if-else if-else Statement:
+Definition: The if-else if-else statement allows you to check multiple conditions in sequence. 
+It executes the first block of code whose condition is true.
+
+Syntax:
+
+if (condition1)  {
+    // Code to be executed if condition1 is true
+}else if (condition2) {
+    // Code to be executed if condition2 is true
+} else {
+    // Code to be executed if none of the conditions is true
+}
+
+If_Else:
+
+int mark =60
+
+//60>60- false
+//60>50 -true
+if(mark>60){
+  System.out.println("A");
+}
+else if(mark>50){
+  System.out.println("B")
+}
+else{
+  System.out.println("fail");
+}
+
+ClassRoom:
+
+int mark=60;
+condition 1 =mark >90 =A
+condition 2 =mark >70 =B
+condition 3 =mark >50 =C
+else =D
+
+
+Looping Statements:
+
+for Statement: The for loop in Java is used to iterate over a range of values or to 
+repeat a block of code a certain number of times. It consists of three parts: 
+initialization, condition, and iteration expression. The loop continues as long as the condition is true.
+
+Example:
+
+for(initialization;condition;iteration){
+
+}
+            int a=5   
+for (int i = 0; i <a; i++) { i+1
+   syso(i)
+   i=0;0<5;i+1 =true =1
+   i=1;1<5;i+1 =true =2
+   i=2;2<5;i+1 =true =3
+   i=3;3<5;i+1 =true =4
+   i=4;4<5;i+1 =true =5
+   i=5;5<5=>   =false =stop loop
+}
+
+output: 0 1 2 3 4
+
+Method:
+
+mainmethod
+
+public static void main(String args[])
+
+normal method
+
+public void main(){
+  
+}
+
