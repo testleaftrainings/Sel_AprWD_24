@@ -1,0 +1,52 @@
+Todays Agenda:
+    09:30-10:15-Selenium Introdution
+    10:15-:10:30-Launch Browser
+    10:30--10:55-Classroom+Break
+    10:55-12:00-Locators
+    12:00-12:30-Classroom
+    
+
+
+
+
+
+
+
+Selenium:
+
+* Selenium is UI(user interface) Automation 
+* Only Web Application 
+* W3C - World Wide Web Constorium
+
+pom.xml
+ pom-project object model 
+
+ how interact with web application:
+
+ Html structure
+
+ Locators:
+ 8
+ 1.id
+ 2.name
+ 3.classname
+ 4.linktext
+ 5.partial linktext
+ 6.tag name
+ 7.xpath
+ 8.css selector
+
+
+ DOM-Document Object Model
+ Open DOM:
+ 1.Right web page -> Inspect
+ 2.press f12 or fn f12
+ 3.more tools-> Developer tool
+
+
+ <html>,<div>-tag name -purple color
+ id,class,name - attribute name-brown color
+ "username","password"- attribute value-blue color
+ username- text-black color
+
+
