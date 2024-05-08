@@ -1,0 +1,70 @@
+Target Locator:
+  TargetLocator --> Interface
+  RemoteTargetLocator -- Class
+  switchTo() --> control move to one place to another place
+RemoteTargetLocator Implements TargetLocator:
+   1.Alert
+   2.Frame
+   3.WindowHandling
+ 
+Alert:
+   Alert is a small message box, Which display 
+some screen notification  or it will provide some 
+kind of information to the user
+
+build by --> javascript
+
+Types of Alert:
+1.Model Dialogue
+2.Non-Model Dialogue
+
+Model Dialogue:
+1.We can not inspect of an alert
+2.Until handle the alert, we can not interact with any
+ webelement in the ui
+
+1.Simple Alert
+2.Confirmation Alert
+3.Prompt Alert
+
+Non-Model Dialogue:
+--> Its a Sweet Alert
+--> We  can able inspect in our  dom
+
+ext-gen871--10152
+ext-gen864
+
+
+j_idt88:j_idt91 --edge
+j_idt88:j_idt91 --chrome 
+
+Alert Methods:
+accept()-- To accept the alert
+sendKeys() --> to pass the value to an alert
+getText() --> To retrieve the values from alert
+dismiss() --> To cancel this alert
+
+<html>
+<head> </head>
+<body> </body>
+<html>
+<head> </head>
+<body> </body>
+</html>
+</html>
+
+
+
+
+driver.switchTo().frame(Int index);
+driver.switchTo().frame(String NameOrId);
+driver.switchTo().frame(WebElement element);
+
+Frame Exception:
+NoSuchFrameException --Int Index, String nameor id
+if you not handling frame it will throw this  exception
+
+NoSuchElementException --WebElement
+
+
+
