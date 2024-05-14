@@ -1,0 +1,316 @@
+What is class?
+class is a group of object which have common properties,
+It is a blueprint or template from which object are created
+A java class contains methods,variable , constructor
+and block of code
+{
+}
+
+2.What is an Object?
+1.An instance of a class is called object
+2.Object is a real time entity or real world entity
+ 
+ClassName objectName=new ClassName();
+
+3.Explain main method?
+The main method is entry point of any standalone java application
+with out main method we can not execute our code
+public static void main(String[] args)
+
+public:
+   public is a access modifiers, it used to speficy 
+who can access this method...
+
+static: 
+static is a keyword , it is a non- access modifiers
+class, method, variable
+ we can able to call with out instance of a class
+
+void:
+ void is a return type , here does not return anything
+
+main :
+ main is the name of the method name, JVM will look into the main method
+first after that it will execute our code
+
+String[] args: we can able to pass command line aruguments
+
+Can we overload the main method?
+yes,
+
+Access modifiers
+public 
+private
+protected
+default
+
+
+Non -Access Modifiers:
+static
+final
+abstract
+
+String 
+Arrays
+
+data types:
+primitive data types
+int
+float
+long
+double
+short
+byte
+boolean
+char
+
+NOn-primitive data types
+1.String 
+2.Arrays 
+
+String
+Sequence of character is called String
+String is immutable object which it is constant, it
+can not be changes once it has been created.
+
+how will you declare a String
+1.String literal
+String text="testleaf";
+2.String using new keyword
+String obj=new String("Testleaf");
+
+String methods
+length() -- to get the size of the given string
+toCharArray() --> convert the string into character
+.equals()   --> to compare two String
+split()     --> to segrate the String sentences
+replaceAll() --> to change the String
+
+pseudocode:
+given String is madam finally 
+you should verify if the string is palindrome or not
+1.Initialize the String
+2.Initialize an empty String
+3.converted the String into character by using toCharArray()
+4.Iterate the character from charArray
+5. to check the String is palindrome
+6. If it is match the given String is palindrome , if not not a palindrome
+
+
+1.Initialize the String
+  String text="madam";
+//m,a,d,a,m
+//Initialize an empty String
+String rev="";
+converted the String into character by using toCharArray()
+char[] charArray= text.toCharArray();
+
+//Iterate the character from charArray
+ for (int i =charArray.length -1;i>=0; i--){
+     rev=rev+charArray[i];
+}
+// to check the String is palindrome
+// If it is match the given String is palindrome , if not not a palindrome
+if(text.equals(rev)){
+System.out.println("The given String is palindrome");
+}
+else{
+System.out.println("The given String is palindrome");
+
+}
+
+}
+}
+
+
+
+public class Palindrome{
+public static void main(String[] args){
+
+
+
+
+
+Arrays:
+Arrays is a class 
+
+
+Selenium:
+Selenium can automate only web based application
+Selnium support multiple lkanguage like java, javascript, pearl ruby,phython,C#
+it support multiple os windows, mac linux
+it open source
+
+What are the Selenium suite level components
+Selenium IDE
+Selenium Grid
+Selenium WebDriver
+
+Selenium Locators:
+           use                              don't use
+1.id      unique                    if id having number 
+2.name    unique                     if it is having multiple matches
+3.className  unique                  inbetween white space
+4.linkText   <a>
+5.partialLinkText
+6.tagName    unique
+7.cssSelector
+8.xpath
+
+
+xpath- xml path -- extensible marku language
+
+
+Absolute xpath
+Relative Xpath
+
+Starting from root node
+start with /
+
+Starting from current node
+start with //
+
+
+how to select value from drop down
+ WebElement dropDown=driver.findElement(By.id("dropdown"));
+ Select dd=new Select(dropDown);
+  selectByValue
+  selectByVisibleText
+  selectByIndex
+
+if it is not a select tag
+
+driver.findElement(By.id("dropdown")).click();
+driver.findElement(By.id("dropdown")).click();
+
+Alert:
+alert --> interface
+RemoteAlert--> class
+alert build by javascript
+
+method
+accept()
+dismiss()
+getText()
+sendKeys()
+
+
+types:
+model Dialogue
+Non-Model Dialogue
+
+model Dialogue
+1.Simple alert
+2.Confirmation Alert
+3.Prompt Alert
+
+1.UnHandledAlertException 
+2.NoAlertPresentException
+
+frame:
+driver.switchTo().frame(int index);
+driver.switchTo().frame(String NameOrId);
+driver.switchTo().frame(WebElement element);
+
+
+parent frame()  --> it will move to immediate parent
+
+default content() --> it will move to main webpage
+
+NoSuchFrameException -> If you are not handle in frame
+
+
+getWindowHandle()
+String ---> parent window
+getWindowHandles()
+Set<String>
+child window
+
+
+NOSuchWindowException
+
+
+
+
+Action --Interface
+Actions -->Class
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(30));
+wait.until(ExpectedConditions(stalenessof(ele));
+
+implicitlywait                   explicitlywait
+findElement() findElements()     to perform certain kind of action
+
+does not throw any exception     it will throw TimeoutException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

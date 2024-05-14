@@ -1,0 +1,60 @@
+TestNG ---> 
+   Test Next Generartion
+   2004 cedric beaust was developed the testng 
+framework
+TestNG is Runner framework
+Java unit Testing
+.net unit testing 
+
+Prerequisite:
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+</dependency>
+
+
+plugin  - To run the code in IDE
+dependencies   --- it will help to write the code in our IDE
+
+
+How to convert planeScript into TestNG testcases:
+1.we should remove the static keyword from main method
+2.change your method Name
+3.remove the String[] args
+4.On top the method put @Test annoatation
+ @Test ->import from  org.testng.annotations.Test; 
+   @Test --> Manddatory annotations
+             remaining are optional
+
+
+
+how can you execute in parallel mode?
+parallel ="classes"
+
+verbose:
+verbose is attribute to generate the log file in console
+default value is verbose =2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
