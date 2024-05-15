@@ -1,0 +1,37 @@
+TestNG Annotations:
+ @BeforeSuite-- It will start the report extend report
+     @BeforeTest -- to set up the test details
+        @BeforeClass -- to set up the DB conncetion
+             @BeforeMethod -- to launch the browser
+                @Test      -- to execute the testcase
+             @After Method  -- to close the browwser
+        @AfterClass --nA
+     @After Test
+@AfterSuite-- to end the extendreport
+
+
+
+Before Suite
+Before Test
+Before Class
+       Before method
+          TestCase
+       After method
+             Before method
+             TestCase
+             After method
+After class
+After Test
+
+
+
+A class have multiple @Test it will execute the Ascii order
+
+
+
+
+
+
+
+
+
