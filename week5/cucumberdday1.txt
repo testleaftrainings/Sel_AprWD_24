@@ -1,0 +1,102 @@
+
+Cucumber is a tool to automate BDD test Automation
+
+Prerequisite For BDD automation
+Add the dependencies in pom .xml file
+ <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.10.1</version>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.10.1</version>
+</dependency>
+
+
+
+Feature  -- To describe the functionality
+
+Scenario -- used to describe the testcase
+
+Given -  preCondition
+
+When   - Test condition
+
+Then  -- Expected Result
+But   -- Negative scenario
+And   -- conjuction word , multiple time given and when 
+Scenario Outline --  if i want to pass multiple set of data 
+Example
+
+
+
+Feature: To order a mobile Phone in Amazon application
+
+Backgound:
+Given Open the chrome browser
+Given Load the application url
+
+Scenario:To order a new mobile and verify it
+Given Search the mobile name
+When Click on first resulting mobile
+
+Scenario:To order a new laptop and verify it
+Given Search the laptop
+When Click on first resulting laptop
+
+
+Scenario:To order a new tv and verify it
+Given Search the tv
+When Click on first resulting tv
+
+
+
+
+
+
+
+
+
+
+Example:
+      username password
+      Aravind  Aravind@1234
+      Deva     Dev@123
+
+
+
+
+
+
+
+How to create a feature file:
+1.Right click on your package name
+2.hover new options
+3.Click on others
+  click on next
+4.under general--> click file
+5.The file extension with .feature
+6.click on finish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
