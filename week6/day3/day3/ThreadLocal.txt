@@ -1,0 +1,38 @@
+Access Modifiers
+
+public  - we can access from anywhere of this project
+private - we can able to access only with in a class
+protected - we can able to same packages, if i want to acess different
+            but class should be inherited
+default   - only with in a packages
+
+
+getter() --> to get the data from private variables
+setter() --> we can able to make some changes 
+
+Steps to implement thread Local:
+Pre-Step: Remove the constructor call from the all the pages
+
+1.Declare the driver as ThreadLocal Instancr in BaseClass
+private static final ThreadLocal<RemoteWebDriver> remoteWebDriver=new ThreadLocal<RemoteWebDriver>();
+2. create setter(setDriver)method to set the value for ThreadLocal driver instance value
+3.create a getter(getDriver)  method to get ThreadLocal driver instance value
+4.Call the setDriver() from preCondition --@BeforeMethod annotation
+5.Replace all the driver as getDriver() in the BaseClass and Pages
+
+
+
+
+Properties File:
+1.used to keep the static data for project-- url, username, password
+2.Java having some predefinied libraries --> class and method  to interact with property file
+
+
+
+
+
+
+
+
+
+

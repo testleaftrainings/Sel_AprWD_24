@@ -1,0 +1,124 @@
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
+</dependency>
+
+
+
+Exception :
+Exceptions is an abnormal condition which will interupt the normal flow of execution
+
+Why we are using :
+ TO enable the normal flow of execution
+
+NoSuchElementException
+InValidSelectorException
+NOAlertPresentException
+UnHandledAlertException
+NoSuchFrameException
+NoSuchWindowException
+StatleElementReferenceException
+ElementClickInteruptedException
+ElementInteractbleException
+NUllpointerexception
+
+
+Finally:
+  Finally is a block of code, even though the exception has 
+occured the finally block will be executed
+
+
+throw and throws
+
+throw and throws both are java keyword
+throw used to throw the exception 
+explicitly
+
+At a time we can throw single exception only
+
+throws is a method signature to declare the exception
+
+at a time we can declare the more than one exception
+
+final, finalize
+
+final is a non  -access modifiers
+ we can able use class method variable
+class- we can not inherit
+method - overload , we can not override
+variable= it should be constant
+
+finalize() 
+
+
+
+
+
+LearnExtentReport:
+1.Consolidate report with graphical representation
+2.It will specific report based author and category
+3.Attach the screenshot
+
+extend report version -3.1.5
+ 
+
+Class:
+ExtentHtmlreporter --> To set up Physical file path
+ExtentReports --> To capture the data in the reporter
+ExtendTest --> to defnine the testcase  and their datails
+MediaEntityBuilder -- to attacha the screenshot.. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
